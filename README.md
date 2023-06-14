@@ -1,27 +1,23 @@
 # hyprland-dotfiles
 My Hyprland Dotfiles
 
-SUPER + Q = opens Kitty
-SUPER + C = killactive
-SUPER + M = exit
-
 Made on Arch Linux
-Some programms you will need/ I use
 
-hyprland-git
-waybar-hyprland-git
-swayidle
-playerctl
-dunst
-swaybg
-hyprshot
-brightnessctl
-playerctl
-rofi
+## Screenshots
+![Preview](preview.png)
 
+# Importent Keybinds
+```SUPER + Q``` = opens Kitty
+```SUPER + C``` = killactive
+```SUPER + M``` = exit
+
+
+# Dependencies
+To install needed dependencies on Arch
+ ```yay -S hyprland-git networkmanager  networkmanager-dmenu-git dbus waybar-hyprland-git swayidle playerctl dunst swaybg hyprshot brightnessctl playerctl rofi```
+```paru -S hyprland-git networkmanager  networkmanager-dmenu-git dbus waybar-hyprland-git swayidle playerctl dunst swaybg hyprshot brightnessctl playerctl rofi```
+
+Some programms recommend I using
 /
-lite-xl
-kitty
-librewolf
-thunderbird
-nautilus
+```paru -S lite-xl kitty librewolf nvim thunderbird nautilus```
+```yay -S lite-xl kitty librewolf nvim thunderbird nautilus```
