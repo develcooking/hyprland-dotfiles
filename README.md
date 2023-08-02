@@ -24,6 +24,8 @@ Command to install dependencies with paru:
 ## Optional 
 ```paru -S brightnessctl```
 
+## I hope you are using those
+```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber```
 
 ## Some programms I recommend and use
 
