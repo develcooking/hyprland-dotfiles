@@ -21,6 +21,8 @@ Command to install dependencies with paru:
 
 ```paru -S hyprland-git networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar-hyprland-git swayidle playerctl dunst swww-git hyprshot brightnessctl playerctl rofi```
 
+## Optional 
+```paru -S brightnessctl```
 
 
 ## Some programms I recommend and use
