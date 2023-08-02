@@ -24,7 +24,7 @@
     "wlr/workspaces": {
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
-        "all-outputs": true,
+        "all-outputs": false,
         "on-click": "activate",
         "format": "{icon}",
         "format-icons": {
@@ -62,20 +62,21 @@
         "tooltip-format": "<big>{:  %d/%m/%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
         "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "interface": "enp11s0", // (Optional) To force the use of this interface
         "format-wifi": " {signalStrength}%",
-        "format-ethernet": " {ipaddr}/{cidr}",
-        "tooltip-format": "{essid} | {ifname} via {gwaddr}",
+        "format-ethernet": " {bandwidthDownBits}   | {bandwidthUpBits}   | 󰈀 ",
+        "tooltip-format": "{ipaddr}{essid} | {ifname} via {gwaddr}",
         "format-linked": " {ifname} (No IP)",
         "format-disconnected": "⚠ Disconnected",
-        "format-alt": "Wifi connected"
-        },
+        "format-alt": "Wifi connected",
+	"interval": 2
+	},
         "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C",
-        "format": "{temperatureC}°C",
+         "thermal-zone": 2,
+         "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+         "critical-threshold": 80,
+         "format-critical": "{temperatureC}°C",
+         "format": "{temperatureC}°C",
     },
      "backlight": {
         // "device": "acpi_video1",
@@ -100,22 +101,24 @@
         "bat": "BAT2"
     },
     "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "tooltip": false,
-        "format-muted": "󰝟 {volume}%",
-        "on-click": "pamixer -t",
-        "on-scroll-up": "pamixer -i 5",
-        "on-scroll-down": "pamixer -d 5",
-        "scroll-step": 5,
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "󰝟 {format_source}",
+        "format-source": "| {volume}% ",
+        "format-source-muted": "| ",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "",
+            "headset": "",
             "phone": "",
             "portable": "",
             "car": "",
             "default": ["", "", ""]
-        }
+        },
+        "on-click": "sh ~/.config/scripts/mic-toggle"
+    }
 
     }
 }
