@@ -1,0 +1,29 @@
+[Default Application]
+#other
+image/jpeg=com.github.tchx84.flatseal.desktop;
+image/png=com.github.tchx84.flatseal.desktop;
+
+#librewolf(can be changed out)
+x-scheme-handler/http=librewolf.desktop;
+application/xhtml+xml=librewolf.desktop;;
+x-scheme-handler/https=librewolf.desktop;
+text/html=librewolf.desktop;
+image/svg+xml=librewolf.desktop;
+text/html=librewolf.desktop
+x-scheme-handler/http=librewolf.desktop
+application/xhtml+xml=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+
+
+#nvim
+application/json=nvim.desktop;
+application/octet-stream=nvim.desktop;
+text/x-python=nvim.desktop;
+application/x-wine-extension-ini=nvim.desktop;
+text/plain=nvim.desktop;
+application/x-zerosize=nvim.desktop;
+application/json=nvim.desktop
+application/octet-stream=nvim.desktop
+application/x-wine-extension-ini=nvim.desktop
+text/plain=nvim.desktop
+application/x-zerosize=nvim.desktop
