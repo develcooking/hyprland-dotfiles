@@ -25,7 +25,7 @@ Command to install dependencies with paru:
 ```paru -S brightnessctl pulsemixer```
 
 ## I hope you are using those
-```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber```
+```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk xdg-desktop-portal```
 
 ## Some programms I recommend and use
 
