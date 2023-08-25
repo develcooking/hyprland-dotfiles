@@ -18,7 +18,7 @@ then
   swaylock
 elif [ "$selected_option" == "$logout" ]
 then
-  systemctl terminate-user `jp`
+hyprctl dispatch exit
 elif [ "$selected_option" == "$poweroff" ]
 then
   systemctl poweroff
