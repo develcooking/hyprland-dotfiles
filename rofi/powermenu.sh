@@ -18,7 +18,8 @@ then
   swaylock
 elif [ "$selected_option" == "$logout" ]
 then
-hyprctl dispatch exit
+session=`loginctl session-status | head -n 1 | awk '{print $1}'`
+loginctl terminate-session $session
 elif [ "$selected_option" == "$poweroff" ]
 then
   systemctl poweroff
