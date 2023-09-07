@@ -103,7 +103,7 @@ tooltip {
     border-left-width: 2px;
     border-style: solid;
     border-color: #11111b;
-    margin-left: 1px;
+    margin-left: 0px;
     
 }
 #network {
@@ -129,11 +129,26 @@ tooltip {
     margin-right: 0px;
     margin-left: -10px;
     border-radius: 0px;
+    }
+
+    #language {
+    background: #1e1e2e;
+    color: #b5a2e7;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    margin-top: 10px;
+    padding: 0px 0px;
+    margin: 3px 0px;
+    margin-top: 10px;
+
+    border-style: solid;
+    border-color: #11111b;
+
 }
 #pulseaudio {
     color: #89b4fa;
     margin-right: 10px;
-    margin-left: -10px;
+    margin-left: 0px;
     border-left: 0px;
     border-right: 0px;
     border-radius: 0 10px 10px 0;
