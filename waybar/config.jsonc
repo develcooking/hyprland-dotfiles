@@ -126,7 +126,8 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "sh ~/.config/scripts/mic-toggle.sh"
+        "on-click": "sh ~/.config/scripts/mic-toggle.sh",
+  	"on-click-middle": "sh ~/.config/scripts/audio_output_switch.sh"
     }
 
     }
