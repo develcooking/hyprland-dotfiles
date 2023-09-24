@@ -65,7 +65,7 @@
         "tooltip-format": "<big>{:  %d/%m/%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
         "network": {
-        "interface": "enp11s0", // (Optional) To force the use of this interface
+    //  "interface": "enp11s0", // (Optional) To force the use of this interface
         "format-wifi": " {signalStrength}%",
         "format-ethernet": " {bandwidthDownBits}   | {bandwidthUpBits}   | 󰈀 ",
         "tooltip-format": "{ipaddr}{essid} | {ifname} via {gwaddr}",
