@@ -31,4 +31,4 @@ Command to install dependencies with paru:
 
 Command to install programms with paru:
 
-```paru -S librewolf nvim geary thunar thunar-archive-plugin thunar-volman ffmpegthumbnailer xwaylandvideobridge-cursor-mode-2-git```
+```paru -S librewolf-bin neovim evolution thunar thunar-archive-plugin thunar-volman ffmpegthumbnailer xwaylandvideobridge-cursor-mode-2-git```
