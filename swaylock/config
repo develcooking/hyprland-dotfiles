@@ -4,9 +4,9 @@ font=Ubuntu Mono Nerd Font
 clock
 timestr=%R
 
-image=~/.config/backgrounds/background-blue.png
+image=~/.config/swaylock/black.png
 
-fade-in=5.0
+fade-in=0.0
 
 #effect-blur=15x2
 #effect-greyscale
