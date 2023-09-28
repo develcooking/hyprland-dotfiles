@@ -1,5 +1,6 @@
 # hyprland-dotfiles
 My Hyprland Dotfiles
+I stole from all around the internet and coded some myself most of the time marked in the semperate files
 
 Made on Arch Linux
 
