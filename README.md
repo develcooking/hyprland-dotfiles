@@ -1,8 +1,9 @@
 # hyprland-dotfiles
-My Hyprland Dotfiles
-I stole from all around the internet and coded some myself most of the time marked in the semperate files
+My Hyprland Dotfiles that I stole from all around the internet and coded some parts myself most of the time marked in the semperate files
 
-Made on Arch Linux
+Optimised for a 3 monitor setup and a seperate Laptop
+
+Made in Germany on Arch Linux
 
 ## Screenshots
 ![Preview](preview.png)
