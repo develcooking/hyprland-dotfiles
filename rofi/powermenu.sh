@@ -18,8 +18,7 @@ then
   swaylock
 elif [ "$selected_option" == "$logout" ]
 then
-session=`loginctl session-status | head -n 1 | awk '{print $1}'`
-loginctl terminate-session $session
+ loginctl terminate-user `whoami`
 elif [ "$selected_option" == "$poweroff" ]
 then
   systemctl poweroff
