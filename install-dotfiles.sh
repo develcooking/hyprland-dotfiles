@@ -128,13 +128,30 @@ func_install_config() {
 	printf " [-]  Skipping xfce4(thunar) config installation.\n"
     fi
 
+    
+    echo -n ' [?]  Install mimeapps.list? This definse your default applications [Y/n] '
+    read -r userInput
+    if [ "$userInput" == "y" ] || [ "$userInput" == "Y" ] || [ "$userInput" == "" ]; then
+        func_home_install ".config/xfce4/"
+    else
+	printf " [-]  Skipping installation of mimeapps.list .\n"
+    fi
 
+
+
+    echo -n ' [?]  Install backgrounds? This is makes your first navigations easy [Y/n] '
+    read -r userInput
+    if [ "$userInput" == "y" ] || [ "$userInput" == "Y" ] || [ "$userInput" == "" ]; then
+        func_home_install ".config/backgrouds/"
+    else
+	printf " [-]  Skipping installation of backgrounds.\n"
+    fi
     echo -n ' [?]  Install .bashrc? This is for terminal [Y/n] '
     read -r userInput
     if [ "$userInput" == "y" ] || [ "$userInput" == "Y" ] || [ "$userInput" == "" ]; then
-        func_home_install ".config/.bashrc"
+        func_home_install ".bashrc"
     else
-        printf " [-]  Skipping .bashrc config installation.\n"
+        printf " [-]  Skipping .bashrc installation.\n"
     fi
 
 
