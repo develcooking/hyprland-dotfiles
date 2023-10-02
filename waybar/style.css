@@ -65,7 +65,9 @@ tooltip {
     margin-top: 10px;
     border-radius: 0px;
     border-width: 2px;
-    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 3px;
+	border-style: solid;
     border-color: #11111b;
     border-right-width: 0px;
     border-left-width: 0px;
@@ -134,15 +136,15 @@ tooltip {
     #language {
     background: #1e1e2e;
     color: #b5a2e7;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    margin-top: 10px;
-    padding: 0px 0px;
     margin: 3px 0px;
     margin-top: 10px;
-
-    border-style: solid;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 3px;
+	border-style: solid;
     border-color: #11111b;
+    border-right-width: 0px;
+    border-left-width: 0px;
 
 }
 #pulseaudio {
