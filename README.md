@@ -1,7 +1,7 @@
 # hyprland-dotfiles
 My Hyprland Dotfiles that I stole from all around the internet and coded some parts myself most of the time marked in the semperate files
 
-Optimised from a 3 monitor Desktop setup and a seperate Laptop
+Optimised from a 3 monitor desktop PC setup and a seperate laptop
 
 Made in Germany on Arch Linux
 
