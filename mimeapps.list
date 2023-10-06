@@ -21,7 +21,8 @@ application/octet-stream=nvim.desktop
 application/x-wine-extension-ini=nvim.desktop
 text/plain=nvim.desktop
 application/x-zerosize=nvim.desktop
-
+image/gif=org.gnome.eog.desktop
+application/pdf=org.gnome.Evince.desktop
 
 [Added Associations]
 image/png=org.gnome.eog.desktop;
@@ -46,3 +47,7 @@ application/octet-stream=nvim.desktop
 application/x-wine-extension-ini=nvim.desktop
 text/plain=nvim.desktop
 application/x-zerosize=nvim.desktop
+application/xml=librewolf.desktop;nvim.desktop;
+image/gif=org.gnome.eog.desktop;
+application/pdf=org.gnome.Evince.desktop;
+application/x-shellscript=nvim.desktop;
