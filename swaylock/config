@@ -3,6 +3,7 @@ font=Ubuntu Mono Nerd Font
 
 clock
 timestr=%R
+datestr=%a, %d/%m/%Y
 
 image=~/.config/swaylock/black.png
 
