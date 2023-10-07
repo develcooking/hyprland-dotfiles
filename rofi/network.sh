@@ -1,4 +1,6 @@
 #!/bin/bash
-networkmanager_dmenu -i -p "Network:" \
-		  -theme "~/.config/rofi/network.rasi"
 
+theme="$HOME/.config/rofi/network.rasi"
+
+networkmanager_dmenu -i -p "Network:" \
+		  -theme ${theme}
