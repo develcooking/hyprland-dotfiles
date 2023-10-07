@@ -1,8 +1,12 @@
-#!/bin/env bash
+#!/bin/bash
+
+theme="$HOME/.config/rofi/pick-background.rasi"
 
 wallpaper_folder=$HOME/.config/backgrounds/
-wallpaper_location="$(ls "$wallpaper_folder" | sort | rofi -dmenu -i -p "Select Background" -theme "$HOME/.config/rofi/pick-background.rasi" -hover-select -me-select-entry '' -me-accept-entry MousePrimary)"
-
+wallpaper_location="$(ls "$wallpaper_folder" | sort | rofi -dmenu -i -p "Select Background"  \
+							   -theme ${theme} 		     \
+							   -hover-select -me-select-entry '' \
+	 						   -me-accept-entry MousePrimary)"
 
 if [[ -d $wallpaper_folder/$wallpaper_location ]]; then
     wallpaper_temp="$wallpaper_location"
