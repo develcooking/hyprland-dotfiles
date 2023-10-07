@@ -2,7 +2,7 @@
 configuration {
 	modi:                       "dmenu";
     show-icons:                 true;
-    display-dmenu:              "Powermenu :";
+    display-dmenu:              "Network:";
 	window-format:              "{w} · {c} · {t}";
 }
 
