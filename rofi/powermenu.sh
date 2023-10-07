@@ -10,7 +10,7 @@ selected_option=$(echo "$poweroff
 $lock
 $reboot
 $sleep
-$logout" | rofi -dmenu -i -p "Powermenu" \
+$logout" | rofi -dmenu -i -p "Powermenu:" \
 		  -theme "~/.config/rofi/powermenu.rasi")
 
 if [ "$selected_option" == "$lock" ]
