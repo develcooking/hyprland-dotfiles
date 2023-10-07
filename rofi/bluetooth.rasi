@@ -2,7 +2,7 @@
 configuration {
 	modi:                       "dmenu";
     show-icons:                 true;
-    display-dmenu:              "Bluetooth :";
+    display-dmenu:              "Bluetooth:";
 	window-format:              "{w} · {c} · {t}";
 }
 
