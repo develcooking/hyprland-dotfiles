@@ -2,7 +2,7 @@
 configuration {
 	modi:                       "dmenu";
     show-icons:                 true;
-    display-dmenu:              "Network:";
+    display-dmenu:              "Bluetooth:";
 	window-format:              "{w} · {c} · {t}";
 }
 
@@ -115,7 +115,7 @@ listview {
 }
 scrollbar {
     handle-width:                5px ;
-    handle-color:                @handle-colour;
+    handle-color:                @handle-color;
     border-radius:               0px;
     background-color:            @alternate-background;
 }
