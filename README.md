@@ -21,7 +21,7 @@ To install needed dependencies on Arch
 
 Command to install dependencies with paru:
 
-```paru -S kitty hyprland-git networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl dunst swww hyprshot ttf-jetbrains-mono-nerd rofi-ibonn-wayland-only-git rofi-bluetooth-git wlsunset-git```
+```paru -S kitty hyprland-git papirus-icon-theme networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl dunst swww hyprshot ttf-jetbrains-mono-nerd rofi-ibonn-wayland-only-git rofi-bluetooth-git wlsunset-git```
 
 ## Optional 
 ```paru -S brightnessctl pulsemixer```
