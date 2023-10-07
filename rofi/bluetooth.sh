@@ -1,2 +1,2 @@
 #!/bin/bash
-rofi-bluetooth -dmenu -i  -theme "~/.config/rofi/network.rasi"
+rofi-bluetooth -dmenu -i  -theme "~/.config/rofi/bluetooth.rasi"
