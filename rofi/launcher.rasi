@@ -116,7 +116,7 @@ listview {
 }
 scrollbar {
     handle-width:                15px ;
-    handle-color:                @handle-colour;
+    handle-color:                @handle-color;
     border-radius:               5px;
     background-color:            @alternate-background;
 }
