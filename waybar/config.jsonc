@@ -61,8 +61,27 @@
         "spacing": 10
     },
     "clock": {
-      "format": "{:%H:%M}",
-        "tooltip-format": "<big>{:  %d/%m/%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        "format": "{:%H:%M}",
+        "tooltip-format": "<tt>  {calendar}</tt>",
+        "format-alt": " {:%a, %d %b %Y} ",
+		"locale": "de_DE.utf8",
+        "calendar": {
+                    "weeks-pos"     : "none",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#8fbcbb'><b>{}</b></span>",
+                              "days":       "<span color='#8a909e'>{}</span>",
+                              "weeks":      "<span color='#7851a9'><b>W{:%U}</b></span>",
+                              "weekdays":   "<span color='#81a1c1'><b>{}</b></span>",
+                              "today":      "<span color='#6c5280'><b>{}</b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-forward": "tz_up",
+                    "on-click-backward": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+                    }
     },
         "network": {
     //  "interface": "enp11s0", // (Optional) To force the use of this interface
