@@ -29,7 +29,7 @@ then
   systemctl reboot
 elif [ "$selected_option" == "$sleep" ]
 then
-  systemctl suspend
+  swaylock & sleep 2 && systemctl suspend
 else
   echo "No match"
 fi
