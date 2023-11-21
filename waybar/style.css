@@ -132,7 +132,24 @@ tooltip {
     margin-left: -10px;
     border-radius: 0px;
     }
-
+#custom-tw-on {
+	color: #e5809e;
+	background: #1e1e2e;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 5px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width: 2px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-style: solid;
+	border-color: #11111b;
+	border-right-width: 2px;
+	border-radius: 10px 10px 10px 10px;
+	border-left-width: 2px;
+}
     #language {
     background: #1e1e2e;
     color: #b5a2e7;
