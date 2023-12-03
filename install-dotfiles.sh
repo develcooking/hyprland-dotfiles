@@ -10,6 +10,7 @@ func_printseparator() {
     echo ' [+]            Original writen by end-4          '
     echo ' [+]  --------------------------------------------'
     echo ''
+    echo 'this script isnt maintained anymore'
 }
 
 func_home_install() {
