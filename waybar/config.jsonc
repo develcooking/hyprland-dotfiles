@@ -58,9 +58,9 @@
 	"custom/tw-on":{
 		"format": "{}",
 		"interval": 120,
-		# if the html script is not accurate enough use the twitch api one instead
-		#(you have to provide your own client ID and Client Secret)
-	#	"exec": "sh $HOME/.config/waybar/scripts/check_via_tw_apt.sh"
+		// if the html script is not accurate enough use the twitch api one instead
+		//(you have to provide your own client ID and Client Secret)
+	//	"exec": "sh $HOME/.config/waybar/scripts/check_via_tw_apt.sh"
 		"exec": "sh $HOME/.config/waybar/scripts/check_via_html",
 		"tooltip": false
 	},
