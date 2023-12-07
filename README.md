@@ -5,7 +5,7 @@ Optimised from a 3 monitor desktop PC setup and a seperate laptop
 
 Made in Germany on Arch Linux
 
-## Screenshots
+## Screenshot
 ![Preview](preview.png)
 
 ## Importent Keybinds

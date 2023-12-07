@@ -1,5 +1,7 @@
 #!/bin/bash
- 
+
+theme="$HOME/.config/rofi/powermenu.rasi"
+
 lock=" Lock"
 logout="󰍃 Logout"
 poweroff="⏻ Poweroff"
@@ -11,7 +13,7 @@ $lock
 $reboot
 $sleep
 $logout" | rofi -dmenu -i -p "Powermenu:" \
-		  -theme "~/.config/rofi/powermenu.rasi")
+		-theme ${theme})
 
 if [ "$selected_option" == "$lock" ]
 then
