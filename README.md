@@ -21,7 +21,7 @@ To install needed dependencies on Arch
 
 Command to install dependencies with paru:
 
-```paru -S kitty hyprland-git papirus-icon-theme networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl dunst swww hyprshot ttf-jetbrains-mono-nerd rofi-ibonn-wayland-only-git rofi-bluetooth-git wlsunset-git cliphist```
+```paru -S kitty hyprland-git papirus-icon-theme networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd rofi-ibonn-wayland-only-git rofi-bluetooth-git wlsunset-git cliphist```
 
 ## Optional 
 ```paru -S brightnessctl pulsemixer```
@@ -33,4 +33,4 @@ Command to install dependencies with paru:
 
 Command to install programms with paru:
 
-```paru -S librewolf-bin neovim thunderbird thunar thunar-archive-plugin thunar-volman tumbler ffmpegthumbnailer gvfs xwaylandvideobridge-cursor-mode-2-git```
+```paru -S librewolf-bin neovim thunderbird thunar thunar-archive-plugin thunar-volman tumbler ffmpegthumbnailer gvfs xwaylandvideobridge-bin```
