@@ -10,7 +10,7 @@ Made in Germany on Arch Linux
 + custom twitch live plugin for waybar
 + monitor independent virtual-workspaces
 + looks kinda nice
-+ Every time Hyprland restarts random wallpaper for your Wallpaper folder
++ Every time Hyprland restarts random wallpaper for your Wallpaper directory
 + Wallpaper, Bluetooth, Network selector screen via rofi
 + Systemwide mute funktion (R-CTRL + F12)
 + Media keys work (on my Corsair Keyboard)
