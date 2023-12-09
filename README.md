@@ -1,15 +1,28 @@
-# hyprland-dotfiles
-My Hyprland Dotfiles that I stole from all around the internet and coded some parts myself most of the time marked in the semperate files
+# dev-cooking's hyprland-dotfiles
+My Hyprland Dotfiles that I stole from all around the internet and coded some parts myself/chatgpt. Most of the time the original Autor is marked in the files
 
-Optimised from a 3 monitor desktop PC setup and a seperate laptop
+Optimised from a 3 monitor desktop PC setup 
 
 Made in Germany on Arch Linux
+
+
+### Cool features
++ custom twitch live plugin for waybar
++ monitor independent virtual-workspaces
++ looks kinda nice
++ Every time Hyprland restarts random wallpaper for your Wallpaper folder
++ Wallpaper, Bluetooth, Network selector screen via rofi
++ Systemwide mute funktion (R-CTRL + F12)
++ Media keys work (on my Corsair Keyboard)
++ allomst all programms run native on wayland
 
 ## Screenshot
 ![Preview](preview.png)
 
 ## Importent Keybinds
 ```SUPER + Q``` = opens Kitty
+
+```SUPER + R``` = opens App selection screen
 
 ```SUPER + C``` = killactive
 
