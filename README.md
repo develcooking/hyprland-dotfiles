@@ -5,7 +5,6 @@ Optimised from a 3 monitor desktop PC setup
 
 Made in Germany on Arch Linux
 
-
 ### Cool features
 + custom twitch live plugin for waybar
 + monitor independent virtual-workspaces
@@ -15,6 +14,9 @@ Made in Germany on Arch Linux
 + Systemwide mute funktion (R-CTRL + F12)
 + Media keys work (on my Corsair Keyboard)
 + allomst all programms run native on wayland
+
+### Others Opinion
++ mr_boost "Holy shit. That theming. I want to Cry"
 
 ## Screenshot
 ![Preview](preview.png)
