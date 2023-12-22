@@ -4,7 +4,7 @@ My Hyprland Dotfiles that I stole from all around the internet and coded some pa
 Optimised from a 3 monitor desktop PC setup 
 
 Made in Germany on Arch Linux
-![made-on-arch-picture](made-on-arch.png)
+![preview-with-made-on-arch-icon](pix/preview-with-icon.png)
 ### Cool features
 + custom twitch live plugin for waybar
 + monitor independent virtual-workspaces
