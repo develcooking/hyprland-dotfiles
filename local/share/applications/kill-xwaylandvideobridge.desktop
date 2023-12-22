@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=kill-xwaylandvideobridge
+Exec=killall xwaylandvideobridge
+Terminal=false
+Icon=/home/jp/.local/share/applications/icons/skull-icon.png
+Type=Application
+StartupWMClass=xwaylandvideobrige
+Categories=Utility;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=xwaylandvideobridge
+Exec=xwaylandvideobridge
+Terminal=false
+Type=Application
+Icon=/home/jp/.local/share/applications/icons/xwaylandvideobridge.png
+StartupWMClass=xwaylandvideobrige
+Categories=Utility;

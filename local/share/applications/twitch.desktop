@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Twtich
+Comment=Twtich
+Exec=/usr/bin/chromium --no-default-browser-check --ozone-platform=wayland %U https://twitch.tv 
+StartupNotify=true
+Terminal=false
+X-MultipleArgs=True
+Icon=/home/jp/.local/share/applications/icons/twitch.png
+Type=Application
+Categories=Network;WebBrowser;
+Actions=Remove;
+
