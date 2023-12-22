@@ -10,10 +10,11 @@ Made in Germany on Arch Linux
 + monitor independent virtual-workspaces
 + looks kinda nice
 + Every time Hyprland restarts random wallpaper for your Wallpaper directory
-+ Wallpaper, Bluetooth, Network selector screen via rofi
++ beautifull Wallpaper picker
++ Emoji, Bluetooth, Network selector screen via rofi
 + Systemwide mute funktion (R-CTRL + F12)
 + Media keys work (on my Corsair Keyboard)
-+ allomst all programms run native on wayland
++ all most all programms run native on wayland
 
 ### Others Opinion
 + mr_boost "Holy shit. That theming. I want to Cry"
@@ -36,7 +37,9 @@ To install needed dependencies on Arch
 
 Command to install dependencies with paru:
 
-```paru -S kitty hyprland-git papirus-icon-theme networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd rofi-ibonn-wayland-only-git rofi-bluetooth-git wlsunset-git cliphist```
+```paru -S kitty hyprland-git papirus-icon-theme networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd swayosd-git rofi rofi-bluetooth-git wlsunset-git cliphist rofimoji```
+
+all of lbonn's rofi like rofi-bonn-wayland-only-git packages work poorly with the new Wallpaper picker screen
 
 ## Optional 
 ```paru -S brightnessctl pulsemixer```
