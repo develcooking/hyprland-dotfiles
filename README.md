@@ -41,23 +41,26 @@ Made in Germany on Arch Linux
 ```SUPER + M``` = exit
 
 ## Installation
-### Dependencies
+#### Dependencies
 To install needed dependencies on Arch
 
 Command to install dependencies with paru:
 
 ```paru -S kitty hyprland-git papirus-icon-theme networkmanager swaylock-effects-git networkmanager-dmenu-git dbus waybar swayidle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd swayosd-git rofi rofi-bluetooth-git wlsunset-git cliphist rofimoji```
 
-all of lbonn's rofi like rofi-bonn-wayland-only-git packages work poorly with the new Wallpaper picker screen
+the wayland only verion of lbonn's rofi works poorly with the new Wallpaper picker screen
 
-### Optional 
+#### Optional 
 ```paru -S brightnessctl pulsemixer```
 
-### I hope you are using those
+#### I hope you are using those
 ```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk xdg-desktop-portal```
 
-### Some programms I recommend and use
-
-Command to install programms with paru:
-
+#### Some programms I recommend and use
 ```paru -S librewolf-bin neovim thunderbird thunar thunar-archive-plugin thunar-volman tumbler ffmpegthumbnailer gvfs xwaylandvideobridge-bin```
+
+## Things I want to change in the Future
++ automaitc color theme changeing based on the colors of the wallpaper (for rofi, waybar, hyprland border, Spotify)
++ add back search bar to new wallpaper picker
++ switch some day to eww instad of rofi and waybar
++ chage the behavior of the up and down button in the wallpaper picker around
