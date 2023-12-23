@@ -19,8 +19,17 @@ Made in Germany on Arch Linux
 ### Others Opinion
 + mr_boost "Holy shit. That theming. I want to Cry"
 
-## Screenshot
-![Preview](preview.png)
+## Previews
+<details>
+  <summary>Show</summary>
+    <img src="https://raw.githubusercontent.com/develcooking/hyprland-dotfiles/main/pix/Wallpaper-picker-preview.png" alt="Wallpaper-picker-preview">
+    <img src="https://raw.githubusercontent.com/develcooking/hyprland-dotfiles/main/pix/emoji-picker-preview.png" alt="emoji-picker-preview">
+    <img src="https://raw.githubusercontent.com/develcooking/hyprland-dotfiles/main/pix/Rofi-run-preview.png" alt="Rofi-run-preview">
+    <img src="https://raw.githubusercontent.com/develcooking/hyprland-dotfiles/main/pix/Rofi-Powermenu-preview.png" alt="Rofi-Powermenu-preview">
+    <img src="https://raw.githubusercontent.com/develcooking/hyprland-dotfiles/main/pix/Rofi-Network-preview.png" alt="Rofi-Network-preview">
+    <img src="https://raw.githubusercontent.com/develcooking/hyprland-dotfiles/main/pix/Rofi-Bluetooth-preview.png" alt="Rofi-Bluetooth-preview.png">
+
+</details>
 
 ## Importent Keybinds
 ```SUPER + Q``` = opens Kitty
