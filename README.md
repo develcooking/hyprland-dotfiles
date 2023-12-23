@@ -40,8 +40,8 @@ Made in Germany on Arch Linux
 
 ```SUPER + M``` = exit
 
-
-## Dependencies
+## Installation
+### Dependencies
 To install needed dependencies on Arch
 
 Command to install dependencies with paru:
@@ -50,13 +50,13 @@ Command to install dependencies with paru:
 
 all of lbonn's rofi like rofi-bonn-wayland-only-git packages work poorly with the new Wallpaper picker screen
 
-## Optional 
+### Optional 
 ```paru -S brightnessctl pulsemixer```
 
-## I hope you are using those
+### I hope you are using those
 ```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk xdg-desktop-portal```
 
-## Some programms I recommend and use
+### Some programms I recommend and use
 
 Command to install programms with paru:
 
