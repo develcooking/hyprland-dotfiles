@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Restart Portals
+Comment=Portals
+Exec=systemctl --user restart xdg-desktop-portal-hyprland xdg-desktop-portal
+StartupNotify=true
+Terminal=false
+X-MultipleArgs=True
+Icon=/home/jp/.local/share/applications/icons/restart-portal.png
+Type=Application
+Categories=Desktop;
+Actions=Remove;
+

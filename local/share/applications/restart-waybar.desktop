@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Restart-Waybar
+Comment=Restart-Waybar
+Exec=sh .config/scripts/restart-waybar.sh
+Icon=/home/jp/.local/share/applications/icons/restart-waybar.png
+Type=Application
+
