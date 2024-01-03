@@ -8,6 +8,8 @@
 
 set clipboard=unnamedplus
 
+" uses vim-plug as a plugin manager https://github.com/junegunn/vim-plug
+
 call plug#begin()
 
 Plug 'https://github.com/elkowar/yuck.vim'
@@ -33,4 +35,4 @@ call plug#end()
 
 
 
-" mainly done by NeuralNine https://github.coim/NeuralNine/config-files/blob/master/init.vim
+" mainly done by NeuralNine https://github.com/NeuralNine/config-files/blob/master/init.vim
