@@ -63,4 +63,5 @@ the wayland only verion of lbonn's rofi works poorly with the new Wallpaper pick
 + automaitc color theme changeing based on the colors of the wallpaper (for rofi, waybar, hyprland border, Spotify)
 + add back search bar to new wallpaper picker
 + switch some day to eww instad of rofi and waybar
++ set hyprland opacity via keybind
 + chage the behavior of the up and down button in the wallpaper picker around
