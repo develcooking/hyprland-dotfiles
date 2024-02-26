@@ -46,7 +46,7 @@ To install needed dependencies on Arch
 
 Command to install dependencies with paru:
 
-```paru -S kitty hyprland-git papirus-icon-theme networkmanager hyprlock-git networkmanager-dmenu-git dbus waybar swayidle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd swayosd-git rofi-lbonn-wayland rofi-bluetooth-git wlsunset-git cliphist rofimoji```
+```paru -S kitty hyprland papirus-icon-theme networkmanager hyprlock-git networkmanager-dmenu-git dbus waybar hypridle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd swayosd-git rofi-lbonn-wayland rofi-bluetooth-git wlsunset-git cliphist rofimoji```
 
 the wayland only verion of lbonn's rofi works poorly with the new Wallpaper picker screen
 
