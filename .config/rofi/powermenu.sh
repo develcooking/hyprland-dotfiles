@@ -17,7 +17,7 @@ $logout" | rofi -dmenu -i -p "Powermenu:" \
 
 if [ "$selected_option" == "$lock" ]
 then
-  swaylock
+  hyprlock
 elif [ "$selected_option" == "$logout" ]
 then
  loginctl terminate-user `whoami`
