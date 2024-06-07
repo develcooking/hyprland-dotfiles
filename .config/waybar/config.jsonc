@@ -1,0 +1,138 @@
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces",
+        "tray",
+        "custom/tw-on"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [ 
+        "temperature",
+        "network",
+        "hyprland/language",
+	    "pulseaudio"
+    ],
+    // Modules configuration
+    "hyprland/workspaces": {
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "all-outputs": false,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+
+          }
+        },
+    "tray": {
+        "icon-size": 13,
+        "tooltip": false,
+        "spacing": 10
+        },
+    "custom/tw-on":{
+		"format": "{}",
+		"interval": 40,
+		// if the html script is not accurate enough use the twitch api one instead
+		//(you have to provide your own client ID and Client Secret)
+		"exec": "bash $HOME/.config/waybar/scripts/check_via_tw_api.sh",
+        "exec-if": "exit 0",
+        //	"exec": "sh $HOME/.config/waybar/scripts/check_via_html",
+		"tooltip": false
+	},
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<tt>  {calendar}</tt>",
+        "format-alt": " {:%a, %d %b %Y} ",
+		"locale": "de_DE.utf8",
+        "calendar": {
+                    "weeks-pos"     : "none",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#8fbcbb'><b>{}</b></span>",
+                              "days":       "<span color='#8a909e'>{}</span>",
+                              "weeks":      "<span color='#7851a9'><b>W{:%U}</b></span>",
+                              "weekdays":   "<span color='#81a1c1'><b>{}</b></span>",
+                              "today":      "<span color='#6c5280'><b>{}</b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-forward": "tz_up",
+                    "on-click-backward": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+                    }
+    },
+        "network": {
+    //  "interface": "enp11s0", // (Optional) To force the use of this interface
+        "format-wifi": " {signalStrength}%",
+        "format-ethernet": " {bandwidthDownBits}   | {bandwidthUpBits}   | 󰈀 ",
+        "tooltip-format": "{ipaddr}{essid} | {ifname} via {gwaddr}",
+        "format-linked": " {ifname} (No IP)",
+        "format-disconnected": "⚠ Disconnected",
+        "format-alt": "Wifi connected",
+	"interval": 2
+	},
+        "temperature": {
+         "thermal-zone": 2,
+         "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+         "critical-threshold": 80,
+         "format-critical": "{temperatureC}°C",
+         "format": "{temperatureC}°C"
+    },
+    "hyprland/language": {
+    "format": "[{}]",
+    "format-de": "de",
+    "format-no": "no" 
+},
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": "󱉝 {capacity}%",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "sh ~/.config/scripts/mic-toggle.sh",
+  	"on-click-middle": "sh ~/.config/scripts/audio_output_switch.sh"
+    }
+}

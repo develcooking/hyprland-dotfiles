@@ -1,0 +1,53 @@
+* {
+    border: none;
+    font-family: JetBrains Mono Nerd Font, Regular;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/*-----module groups----*/
+.modules-right {
+    margin: 3px 2px;
+}
+
+.modules-left {
+    margin-left: 2px;
+}
+
+/*-----modules indv----*/
+#workspaces button {
+    padding: 1px 5px;
+    background-color: transparent;
+}
+
+#workspaces button.active {
+    color: #111;
+    background: #0000;
+    border-radius: 10px;
+}
+
+#clock,
+#temperature,
+#network,
+#pulseaudio,
+#custom-tw-on,
+#language,
+#tray {
+    padding: 3px 10px;
+}
+
+/*-----Indicators----*/
+#pulseaudio.muted {
+    color: #cc3436;
+}
+#temperature.critical {
+    color: #cc3436;
+}
+
+#tray menu {
+    background-color: #333;
+}
