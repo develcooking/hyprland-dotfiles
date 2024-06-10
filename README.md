@@ -59,6 +59,8 @@ the wayland only verion of lbonn's rofi works poorly with the new Wallpaper pick
 #### Some programms I recommend and use
 ```paru -S librewolf-bin neovim thunderbird thunar thunar-archive-plugin thunar-volman tumbler ffmpegthumbnailer gvfs xwaylandvideobridge-bin```
 
+to have the monitor independed workspaces install [hyprsplit](https://github.com/shezdy/hyprsplit)
+
 ## Things I want to change in the Future
 + automaitc color theme changeing based on the colors of the wallpaper (for rofi, waybar, hyprland border, Spotify)
 + add back search bar to new wallpaper picker
