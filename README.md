@@ -1,5 +1,5 @@
 # dev-cooking's hyprland-dotfiles
-My Hyprland Dotfiles that I stole from all around the internet and coded some parts myself/chatgpt. Most of the time the original Autor is marked in the files
+My Hyprland Dotfiles that I stole from all around the internet, coded parts myself or with the help of LLMs. Most of the time the original Autor is marked in the files
 
 Optimised from a 3 monitor desktop PC setup 
 
