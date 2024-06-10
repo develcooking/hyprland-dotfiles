@@ -46,7 +46,9 @@ To install needed dependencies on Arch
 
 Command to install dependencies with paru:
 
-```paru -S kitty hyprland papirus-icon-theme networkmanager hyprlock-git networkmanager-dmenu-git dbus waybar hypridle playerctl swaync swww hyprshot ttf-jetbrains-mono-nerd swayosd-git rofi-lbonn-wayland rofi-bluetooth-git wlsunset-git cliphist rofimoji```
+```
+paru -S hyprland hypridle hyprlock hyprshot kitty papirus-icon-theme networkmanager networkmanager-dmenu-git waybar playerctl swaync swww ttf-jetbrains-mono-nerd swayosd-git rofi-lbonn-wayland rofi-bluetooth-git wlsunset-git cliphist rofimoji
+```
 
 the wayland only verion of lbonn's rofi works poorly with the new Wallpaper picker screen
 
@@ -54,7 +56,7 @@ the wayland only verion of lbonn's rofi works poorly with the new Wallpaper pick
 ```paru -S brightnessctl pulsemixer```
 
 #### I hope you are using those
-```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk xdg-desktop-portal```
+```paru -S pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal gvfs-smb gvfs-nfs```
 
 #### Some programms I recommend and use
 ```paru -S librewolf-bin neovim thunderbird thunar thunar-archive-plugin thunar-volman tumbler ffmpegthumbnailer gvfs xwaylandvideobridge-bin```
@@ -65,3 +67,4 @@ the wayland only verion of lbonn's rofi works poorly with the new Wallpaper pick
 + switch some day to eww instad of rofi and waybar
 + set hyprland opacity via keybind
 + chage the behavior of the up and down button in the wallpaper picker around
++ maybe switch to debian with dwl
