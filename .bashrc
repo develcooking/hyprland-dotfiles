@@ -18,6 +18,9 @@ alias icat='kitty +kitten icat'
 alias updateven='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias neofetch='neowofetch'
+alias home='cd ~'
+alias cd..='cd ..'
+alias rm='trash -v'
 
 export QT_QPA_PLATFORMTHEME=xdg-desktop-portal-gtk
 export QT_QPA_PLATFORMTHEME=gtk3
