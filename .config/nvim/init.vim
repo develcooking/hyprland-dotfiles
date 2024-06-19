@@ -6,6 +6,7 @@
 :set softtabstop=4
 :set mouse=a
 
+command! E :Explore   
 set clipboard=unnamedplus
 
 " uses vim-plug as a plugin manager https://github.com/junegunn/vim-plug
