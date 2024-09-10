@@ -14,10 +14,12 @@
         "clock"
     ],
     "modules-right": [ 
-        "temperature",
         "network",
+        "temperature",
         "hyprland/language",
-	    "pulseaudio"
+		"idle_inhibitor",
+	    "pulseaudio",
+		"custom/power"
     ],
     // Modules configuration
     "hyprland/workspaces": {
@@ -48,6 +50,17 @@
         //	"exec": "sh $HOME/.config/waybar/scripts/check_via_html",
 		"tooltip": false
 	},
+	    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },    "custom/power": {
+        "format" : "⏻ ",
+		"tooltip": false,
+		 "on-click": "sh ~/.config/rofi/powermenu.sh"
+    },
     "clock": {
         "format": "{:%H:%M}",
         "tooltip-format": "<tt>  {calendar}</tt>",

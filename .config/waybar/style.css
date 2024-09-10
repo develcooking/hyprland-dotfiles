@@ -11,11 +11,11 @@ window#waybar {
 
 /*-----module groups----*/
 .modules-right {
-    margin: 3px 2px;
+    margin-right: 1px;
 }
 
 .modules-left {
-    margin-left: 2px;
+    margin-left: 1px;
 }
 
 /*-----modules indv----*/
@@ -35,6 +35,8 @@ window#waybar {
 #network,
 #pulseaudio,
 #custom-tw-on,
+#idle_inhibitor,
+#custom-power,
 #language,
 #tray {
     padding: 3px 10px;
